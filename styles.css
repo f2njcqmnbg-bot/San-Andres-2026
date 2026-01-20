@@ -14,3 +14,11 @@ hr{opacity:.12}
 .table thead th{color:#9ad7ff}
 .btn-save{background:var(--accent);border:0;color:#001b18;font-weight:700}
 */
+
+body, .modal-content, .table, .form-label, .nav-link, .text-secondary, .text-info, .text-warning {
+    color: #ffffff !important;
+}
+
+td, th, label, p, span, div {
+    color: #ffffff !important;
+}
