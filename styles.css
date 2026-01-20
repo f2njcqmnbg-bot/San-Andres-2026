@@ -1,0 +1,16 @@
+/* Estilos simples y limpios */
+:root{--card-bg:#121212;--card-border:#2a2a2a;--accent:#00d1b2;}
+.card-week{background:var(--card-bg);border:1px solid var(--card-border);transition:transform .08s ease, border-color .2s ease;cursor:pointer;}
+.card-week:hover{transform:translateY(-2px);border-color:var(--accent);} 
+.badge-tag{background:#1f1f1f;border:1px solid #2b2b2b;color:#c7f9ff}
+.code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+input, textarea{background:#0f0f0f !important;color:#e7e7e7 !important;border-color:#2a2a2a !important}
+label{font-weight:600}
+hr{opacity:.12}
+.nav-tabs .nav-link{color:#bbb}
+.nav-tabs .nav-link.active{color:#fff;background:#101010;border-color:#2a2a2a}
+.small-muted{color:#a3a3a3;font-size:.9rem}
+.table{--bs-table-bg:transparent;--bs-border-color:#2a2a2a;color:#ddd}
+.table thead th{color:#9ad7ff}
+.btn-save{background:var(--accent);border:0;color:#001b18;font-weight:700}
+*/
